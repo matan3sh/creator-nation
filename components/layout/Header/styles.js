@@ -23,6 +23,7 @@ export const NavWrapper = styled.nav`
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
+  
   @media screen and (max-width: 1820px) {
     width: 95%;
   }
