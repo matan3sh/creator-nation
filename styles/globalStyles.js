@@ -30,6 +30,28 @@ const GlobalStyle = createGlobalStyle`
         src: url("static/fonts/Moderat-Bold.ttf");
     }
 
+@font-face {
+        font-family: "HelveticaNeue Medium";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url("static/fonts/HelveticaNeue Medium.ttf");
+    }
+@font-face {
+        font-family: "Neue-Helvetica";
+        font-style: normal;
+        font-weight: 500;
+        font-display: swap;
+        src: url("static/fonts/HelveticaNeue.ttf");
+    }
+@font-face {
+        font-family: "HelveticaNeueBd";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url("static/fonts/HelveticaNeueBd.ttf");
+    }
+
 *,
 ::before,
 ::after {

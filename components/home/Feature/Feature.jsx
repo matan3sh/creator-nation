@@ -15,15 +15,15 @@ const Feature = () => {
   return (
     <Container id='Feature'>
       <Wrapper>
-        <Headline>Calling Israel’s Top Crypto Talents</Headline>
+        {/* <Headline>Calling Israel’s Top Crypto Talents</Headline> */}
         <Title>
-          Crypto <span>Week</span>
+          Creator <span>Nations</span>
         </Title>
-        <Subtitle>7th December - 9th December</Subtitle>
+        {/* <Subtitle>7th December - 9th December</Subtitle> */}
         <Description>
-          Join global crypto leaders, VC firms and promising blockchain
-          companies unveiling the future trends from the world’s top Crypto
-          Week!
+          Join global NFT leaders and promising Metaverse
+          and Web3 companies unveiling the future trends
+          from the world’s top Creator Nations!
         </Description>
         <FeatureButton
           href='https://hopin.com/events/israel-crypto-week'
@@ -36,17 +36,18 @@ const Feature = () => {
             viewBox='0 0 8 15'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'>
-            <path d='M1 1L6 7.25L1 13.5' stroke='white' strokeWidth='2.5' />
+            <path d='M1 1L6 7.25L1 13.5' stroke='#0D0D0D' strokeWidth='2.5' />
           </svg>
         </FeatureButton>
 
         <FeaturePartners>
-          {featurPartners.map((logo) => (
+          {featurPartners.map((logo, index) => (
             <img
               src={`/static/images/feature/partners/${logo.name}.png`}
               alt={`${logo.name}`}
               height={`${logo.height}`}
               width={`${logo.width}`}
+              key={index}
             />
           ))}
         </FeaturePartners>
