@@ -18,14 +18,18 @@ export const NavContainer = styled.header`
 `;
 
 export const NavWrapper = styled.nav`
-  width: 1620px;
-  margin: auto;
+  width: 95vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-top: 15px;
+  
   @media screen and (max-width: 1820px) {
     width: 95%;
+  }
+
+    @media screen and (max-width: 820px) {
+    margin: auto;
   }
 `;
 
